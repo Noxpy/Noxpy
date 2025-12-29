@@ -19,22 +19,6 @@ The project is designed to grow over time and to be safely extended by the commu
 
 ## Project Structure
 
-
-noxpy/
-├── noxpy.py
-├── utils/
-│   ├── banner.py
-│   └── colors.py
-├── vulnerabilities/
-│   ├── **init**.py
-│   ├── registry.py
-│   ├── shellshock_2014.py
-│   ├── bluekeep_2019.py
-│   └── eternalblue_2017.py
-├── README.md
-└── LICENSE
-
-
 - **noxpy.py** – main entry point  
 - **utils/** – shared utilities (banner, colors)  
 - **vulnerabilities/** – CVE validation modules and registry  
